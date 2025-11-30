@@ -1,0 +1,8 @@
+npm i -D tsx
+"scripts": {
+  "dev": "tsx watch src/server.ts"
+}
+npm run dev
+
+in tsconfig.json: 
+    "esModuleInterop": true
